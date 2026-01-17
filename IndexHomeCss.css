@@ -1,0 +1,164 @@
+.menu_despliegue {
+    border-bottom: 2px solid #DC0000;
+    padding: 5px;
+    text-align: left;
+    color: white;
+    display: flex;
+    background-color: #050E3C;
+}
+
+.menu_despliegue nav {
+    display: flex;
+}
+
+#logo {
+    justify-content: left;
+}
+
+#menu {
+    justify-content: center;
+}
+
+.menu_despliegue nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu_despliegue nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: aliceblue;
+}
+
+.menu_despliegue nav ul li a:hover {
+    color: #1abc9c;
+}
+
+body {
+    margin: 0;
+    background-color: #011d45;
+    color: white;
+}
+
+#SpaceHomeImg {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#SpaceHomeImg img {
+    border-radius: 6%;
+}
+
+.contenido-info {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid #000;
+    border-radius: 30px;
+}
+
+.actividades {
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 30px;
+}
+
+.actividades ul li {
+    list-style: none;
+}
+
+.mision-vision {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.mision, .vision {
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #050E3C;
+}
+
+#miBoton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+#contacto {
+    padding: 2rem;
+    background-color: #eef2f5;
+}
+
+#contacto h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #222;
+}
+
+#formulario-contacto {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.campo-formulario {
+    margin-bottom: 1rem;
+}
+
+.campo-formulario label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.campo-formulario input,
+.campo-formulario textarea {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+#formulario-contacto button {
+    width: 100%;
+    background-color: #0a4d8c;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formulario-contacto button:hover {
+    background-color: #083b6d;
+}
+
+@media (max-width: 480px) {
+    #contacto {
+        padding: 1.5rem 1rem;
+    }
+
+    #formulario-contacto {
+        padding: 1rem;
+    }
+}
